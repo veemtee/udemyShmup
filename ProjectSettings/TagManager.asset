@@ -12,6 +12,7 @@ TagManager:
   - Coin
   - VihuBullet
   - Asteroid
+  - Railgun
   layers:
   - Default
   - TransparentFX
@@ -23,7 +24,7 @@ TagManager:
   - 
   - Air Object
   - Ground Object
-  - 
+  - Sensorlayer
   - 
   - 
   - 

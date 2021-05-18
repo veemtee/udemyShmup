@@ -10,9 +10,9 @@ public class PopVihu : MonoBehaviour
 
     void Start()
     {
-        bulletRandomTime = Random.Range(1.25f, 3.5f);
+        bulletRandomTime = Random.Range(3.25f, 5.5f);
         Invoke("bullet", bulletRandomTime);
-        Invoke("delete", 7f);
+        Invoke("delete", 20f);
     }
     void Update()
     {
@@ -24,7 +24,7 @@ public class PopVihu : MonoBehaviour
         if (other.tag == "Bullet")
         {
             Instantiate(explosion, transform.position, transform.rotation);
-            Destroy(gameObject);
+            Invoke("delete", 0.2f);
         }
 
         if (other.tag == "Player")
