@@ -8,6 +8,7 @@ public class uusbulletScript : MonoBehaviour
     public Rigidbody rig;
     public float speed;
     public GameObject asteroidDust;
+    public GameObject boltExp;
 
     // Start is called before the first frame update
     void Start()
@@ -20,6 +21,7 @@ public class uusbulletScript : MonoBehaviour
     {
         if (other.tag == ("Enemy"))
         {
+            Instantiate(boltExp, transform.position, transform.rotation);
             Destroy(gameObject);
         }
 

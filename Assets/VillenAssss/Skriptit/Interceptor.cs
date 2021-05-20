@@ -36,12 +36,13 @@ public class Interceptor : MonoBehaviour
         if (other.tag == ("Player"))
         {
             Debug.Log("NOH!?");
-            lastfire = Time.time + firerate;
+            //lastfire = Time.time + firerate;
 
             Instantiate(bullet, gunSpawns[shotIndex].transform.position, gunSpawns[shotIndex].transform.rotation);
-            shotIndex++;
-            if (shotIndex > 1)
-                shotIndex = 0;
+            //shotIndex++;
+            //if (shotIndex > 1)
+            //    shotIndex = 0;
+            Debug.Log("pöh");
         }
     }
 }   

@@ -339,3 +339,4 @@ MonoBehaviour:
   speed: 25
   asteroidDust: {fileID: 2074974324340685081, guid: efcde2930bb736848bdb688e6007bb51,
     type: 3}
+  boltExp: {fileID: 5351690341099623117, guid: 36d91a80dc6b8174d8c3f81e5ab02350, type: 3}
