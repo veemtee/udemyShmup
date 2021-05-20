@@ -13295,7 +13295,7 @@ PrefabInstance:
     - target: {fileID: 8040421643563024054, guid: 75cb0621a5bb583408a1f3ac9a14ebee,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 75cb0621a5bb583408a1f3ac9a14ebee, type: 3}
@@ -23676,7 +23676,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1059445701}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7c548a918ad317944ba75e02590bf51e, type: 3}
   m_Name: 
@@ -23700,7 +23700,7 @@ MonoBehaviour:
   onEnterScreen:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1104330850}
+      - m_Target: {fileID: 1059445701}
         m_MethodName: SetActive
         m_Mode: 6
         m_Arguments:
@@ -24794,7 +24794,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1159608041
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -24872,7 +24872,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1159608040}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 4.3500004, y: 0, z: 22.510006}
+  m_LocalPosition: {x: 4.3500004, y: 0, z: 32.2}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 485711338}
@@ -28043,7 +28043,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1519029649
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -28110,7 +28110,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1519029648}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 5.4500003, y: 0, z: 47.710007}
+  m_LocalPosition: {x: 5.4500003, y: 0, z: 54.1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1745627688}
@@ -28521,7 +28521,18 @@ MonoBehaviour:
         m_CallState: 2
   onExitScreen:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2105648154}
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!4 &1547337099
 Transform:
   m_ObjectHideFlags: 0
@@ -37597,12 +37608,12 @@ MonoBehaviour:
   - {fileID: 2980193028192197508, guid: 884fb89f08739c7479d96fc37c653b21, type: 3}
   - {fileID: 2980193028192197508, guid: 884fb89f08739c7479d96fc37c653b21, type: 3}
   spawnValue: {x: 5, y: 0, z: 0}
-  waveCount: 10
-  spawnWait: 0.5
-  startWait: 0.5
-  waveWait: 0.5
+  waveCount: 6
+  spawnWait: 0.75
+  startWait: 0.75
+  waveWait: 0.75
   parent: {fileID: 1972474336}
-  spawnDuration: 10
+  spawnDuration: 6
 --- !u!4 &1972474338
 Transform:
   m_ObjectHideFlags: 0
