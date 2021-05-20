@@ -37,11 +37,11 @@ public class ShootingScript : MonoBehaviour
             StartCoroutine(ShootModeChange());
         }
 
-        if (Input.GetButton("Fire3"))
+        if (Input.GetButton("Fire2"))
         {
-            
+            Debug.Log("fire2");
             Railgun();
-            Debug.Log("fire3");
+            
         }
 
     }

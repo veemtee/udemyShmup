@@ -38,7 +38,8 @@ public class Interceptor : MonoBehaviour
             Debug.Log("NOH!?");
             //lastfire = Time.time + firerate;
 
-            Instantiate(bullet, gunSpawns[shotIndex].transform.position, gunSpawns[shotIndex].transform.rotation);
+            Instantiate(bullet, transform.position, transform.rotation);
+            //Instantiate(bullet, gunSpawns[shotIndex].transform.position, gunSpawns[shotIndex].transform.rotation);
             //shotIndex++;
             //if (shotIndex > 1)
             //    shotIndex = 0;
