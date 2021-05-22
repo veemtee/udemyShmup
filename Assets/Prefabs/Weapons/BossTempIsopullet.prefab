@@ -71,7 +71,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300002, guid: 03e466807a627524bb63fa6a0aaa59fc, type: 3}
-  m_Color: {r: 0.2794118, g: 0.8210954, b: 1, a: 1}
+  m_Color: {r: 1, g: 0.47586206, b: 0, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -93,11 +93,11 @@ GameObject:
   - component: {fileID: 136965172497532432}
   - component: {fileID: 54685440072243280}
   - component: {fileID: 114162967684665420}
-  - component: {fileID: 82525988729260432}
-  - component: {fileID: 114300936175886384}
+  - component: {fileID: 82729374160271112}
+  - component: {fileID: 114759295819648958}
   m_Layer: 8
-  m_Name: Bullet
-  m_TagString: Bullet
+  m_Name: BossTempIsopullet
+  m_TagString: EnemyBullet
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -111,7 +111,7 @@ Transform:
   m_GameObject: {fileID: 1297096756107028}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -2, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 3, y: 3, z: 12.35}
   m_Children:
   - {fileID: 4919075665058522}
   - {fileID: 4789385784610174}
@@ -161,7 +161,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 10
---- !u!82 &82525988729260432
+--- !u!82 &82729374160271112
 AudioSource:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -257,7 +257,7 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 0
---- !u!114 &114300936175886384
+--- !u!114 &114759295819648958
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -347,7 +347,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300004, guid: 03e466807a627524bb63fa6a0aaa59fc, type: 3}
-  m_Color: {r: 0.08088237, g: 0.77180517, b: 1, a: 1}
+  m_Color: {r: 1, g: 0.47586206, b: 0, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
