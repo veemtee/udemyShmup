@@ -26,7 +26,7 @@ public class LaserScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.L) && !laserFired)
+        if (Input.GetKeyDown(KeyCode.Space) && !laserFired)
         {
             StartCoroutine(FireLaser());
         }           

@@ -12,6 +12,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Gameplay.unity
     guid: 65f376c9aad1d58409fe9bf2b1ae1d30
   - enabled: 1
+    path: Assets/Scenes/OmaMenu.unity
+    guid: e26d27a6639572f46b518852cc991861
+  - enabled: 1
     path: Assets/Scenes/RuheLangsamt.unity
     guid: c7995cc407e2c85489ad7d3e2c9e23d3
   m_configObjects: {}
