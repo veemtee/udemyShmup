@@ -10,7 +10,7 @@ public class LoppuFighterShooting : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        transform.forward
+        //transform.forward
         bulletRandomTime = Random.Range(1.25f, 2.5f);
         InvokeRepeating("bullet", bulletRandomTime, bulletRandomTime);
     }

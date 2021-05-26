@@ -41,6 +41,6 @@ public class GameEndScript : MonoBehaviour
 
     void BackToMenu()
     {
-        SceneLoader.instance.ChangeScene("Menu");
+        SceneLoader.instance.ChangeScene("OmaMenu");
     }
 }

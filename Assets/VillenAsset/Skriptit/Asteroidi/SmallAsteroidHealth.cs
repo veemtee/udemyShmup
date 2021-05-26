@@ -36,7 +36,7 @@ public class SmallAsteroidHealth : MonoBehaviour
     {
         if (other.tag == "Bullet")
         {
-            
+            Instantiate(playerExplosion, other.transform.position, other.transform.rotation);
             armoryCurrentHealth--;
             Destroy(other.gameObject);
 

@@ -105,8 +105,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: af36492cc8712634e80e934a7a75efaa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  armoryMaxHealth: 55
-  armoryCurrentHealth: 55
+  armoryMaxHealth: 45
+  armoryCurrentHealth: 45
   deadorAlive: 1
   explosion: {fileID: 5476438325601606709, guid: 9772e2a6bddd2c9468635cc83a239728,
     type: 3}
